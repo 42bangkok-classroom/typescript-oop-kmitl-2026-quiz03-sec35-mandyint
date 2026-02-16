@@ -4,7 +4,7 @@ export class Person {
     private age: number = 0;
     static COUNTRY: string = "Thailand";
 
-    setAge(age: number){
+    setAge(age: number): void{
         this.age = age;
     }
 

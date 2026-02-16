@@ -1,1 +1,8 @@
-export class User {}
+export class User {
+    user: string;
+    password: string;
+
+    constructor(user: string, password: string){
+        this.user = user;
+    }
+}

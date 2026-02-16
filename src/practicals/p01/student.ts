@@ -1,8 +1,8 @@
 export class Student {
-    public firstname: string = "John";
-    public lastname: string = "Doe";
+    public firstname: string = '';
+    public lastname: string = '';
 
-    printName(){
-        console.log(this.firstname + " " + this.lastname);
+    printName():void{
+        console.log(`${this.firstname} ${this.lastname}`);
     }
 }
