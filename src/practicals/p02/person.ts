@@ -1,13 +1,18 @@
 export class Person {
     public firstname: string = "John";
     public lastname: string = "Doe";
-    public age: number;
+    private age: number = 0;
+    static COUNTRY: string = "Thailand";
 
-    constructor(age: number){
+    setAge(age: number){
         this.age = age;
     }
-    
-    printName(){
-        return this.firstname, this.lastname;
+
+    getFullName(){
+        return this.firstname + " " + this.lastname;
+    }
+
+    getAge(){
+        return this.age;
     }
 }
