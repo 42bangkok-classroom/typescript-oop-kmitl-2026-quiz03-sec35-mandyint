@@ -1,13 +1,9 @@
 export class Student {
-    firstname: string;
-    lastname: string;
-
-    constructor(firstname: string, lastname: string){
-        this.firstname = firstname;
-        this.lastname = lastname;
-    }
+    public firstname: string = "John";
+    public lastname: string = "Doe";
 
     printName(){
-        console.log(`${this.firstname} ${this.lastname}`);
+        this.firstname = this.firstname;
+        this.lastname = this.lastname;
     }
 }

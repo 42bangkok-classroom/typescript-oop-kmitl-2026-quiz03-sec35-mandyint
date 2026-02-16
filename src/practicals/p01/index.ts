@@ -1,4 +1,4 @@
-import { Student } from './student'
+import { Student } from "./student"
 
 const student = new Student()
 
