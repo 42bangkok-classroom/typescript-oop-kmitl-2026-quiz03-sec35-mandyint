@@ -5,5 +5,5 @@ const student = new Student()
 student.firstname = 'John'
 student.lastname = 'Doe'
 
-console.log(student.printName())
+student.printName()
 // John Doe

@@ -3,6 +3,6 @@ export class Student {
     public lastname: string = "Doe";
 
     printName(){
-        return this.firstname + " " + this.lastname;
+        console.log(this.firstname + " " + this.lastname);
     }
 }
